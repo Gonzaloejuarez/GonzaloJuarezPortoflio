@@ -21,6 +21,26 @@ const NavMenu = document.getElementById('nav-menu'),
             navMenu.classList.remove('show-menu')
         }
         navLink.forEach(n => n.addEventListener('click' , linkAction))
+ 
+
+        const protectData = document.getElementsByClassName('proyectos__content');
+              proyectAll = document.querySelectorAll('.skills__header2');
+        
+        function toggleSkills () {
+            let itemClass = this.parentNode.className
+
+            for(i = 0 ; i < protectData.length ; i++){
+                protectData[i].className = "proyectos__content education__close"
+            }
+            if(itemClass === 'proyectos__content education__close'){
+                this.parentNode.className = "proyectos__content education__open"
+            }
+        }
+
+        proyectAll.forEach((el) => {
+            el.addEventListener('click' , toggleSkills)
+        })
+
 
 
 const themeButton = document.getElementById('change-theme');

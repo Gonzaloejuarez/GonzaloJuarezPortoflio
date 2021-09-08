@@ -499,3 +499,36 @@ border-radius: .25rem;
 .button2:hover{
     background-color: var(--firts-color-alt);
 }
+
+.skills__header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+.education__icon{
+    font-size: 2rem;
+    color: hsl(218, 100%, 50%);
+}
+
+.education__close .proyect__list{
+    height: 0;
+    overflow: hidden;
+}
+.education__open .proyect__list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5) ;
+
+}
+
+.education__close .education__icon{
+    transition: 0.4s;
+}
+.education__open .education__icon{
+    transform: rotate(-180deg);
+    transition: 0.4s;
+}
+.proyectos__content{
+    transition: 0.4s;
+}

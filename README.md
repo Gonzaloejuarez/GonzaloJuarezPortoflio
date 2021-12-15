@@ -1,6 +1,6 @@
 # Gonzalo Juarez
-<h3>Hola!, este es mi portafolio. Mi pagina en la cual van a poder saber mas sobre mi.</h3>
+<h3>Hola!, bienvenidos al repositorio de mi portfolio. Este porfolio tarde 2 dias en hacerlo y tecnicamente fue sencillo. Muy pronto se viene uno nuevo con ReactJs</h3>
 
-#Tecnologias
+# Tecnologias
 
-<h1>Las tecnologias que utilice fueron JavaScript, CSS3 y HTML5 </h1>
+<h2>Las tecnologias que utilice fueron JavaScript, CSS3 y HTML5 </h2>

@@ -3,6 +3,8 @@
 
 <br>
 <br>
+
+
 # Tecnologias
 
 <h2>Las tecnologias que utilice fueron JavaScript, CSS3 y HTML5 </h2>

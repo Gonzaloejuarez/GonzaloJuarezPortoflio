@@ -430,7 +430,7 @@ border-radius: .25rem;
     
     .imagen__propia-img{
         order: 1;
-        width: 170px;
+        width: 400px;
         border-radius: 20rem;
         justify-content: center;
         align-items: center;
@@ -531,4 +531,20 @@ border-radius: .25rem;
 }
 .proyectos__content{
     transition: 0.4s;
+}
+.imagen_lenguaje{
+    width: 12rem;
+    margin: 2rem;
+}
+.imagen_lenguaje3{
+    width: 12rem;
+    margin: 2rem;
+}
+/* .imagen_lenguaje2{
+    justify-content: space-around;
+} */
+.grid_templado{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
 }
